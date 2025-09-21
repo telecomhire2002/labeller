@@ -5,7 +5,7 @@ import zipfile
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title='Telecom Hire • Labeller', page_icon='🛰️', layout='wide')
+st.set_page_config(page_title='A6 • Labeller', page_icon='🛰️', layout='wide')
 
 # --------------------------- helpers ---------------------------
 def norm_tengig(s: str) -> str:
@@ -384,7 +384,7 @@ st.title('Labeller — Output Generator')
 st.caption("Generate sector-wise labelling sheets from your **MAIN DATA CG.xlsx** for one or multiple eNB IDs.")
 
 with st.sidebar:
-    st.markdown("### 🛰️ Telecom Hire — Labeller")
+    st.markdown("### 🛰️ A6 — Labeller")
     st.write("- Upload one MAIN sheet.")
     st.write("- Enter **one or many eNB IDs** (comma or newline separated).")
     st.write("- Click **Generate** to build all outputs.")
